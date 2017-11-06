@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+div {
+    font-family: 'Caveat', cursive;
+    color: #ffffff;
+    font-size: 2.0rem;
+    text-transform: capitalize;
+    background-color: #14c4f0;
+    padding: 20px;
+    min-height: 15vh;
+}
