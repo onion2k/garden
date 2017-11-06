@@ -12,7 +12,6 @@ function cacheFetch(url, force) {
     const cached = localStorage.getItem(qualifiedUrl);
 
     if (cached && !force) {
-        console.log("Using cache");
         return Promise.resolve(JSON.parse(cached));
     }
 
